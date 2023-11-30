@@ -1,0 +1,66 @@
+/* font-family: 'Fira Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+@font-face {
+  font-family: 'AllRoundGothicThick';
+  src:
+    local('Fontspring-DEMO-allroundgothic-thick'),
+    url('./fonts/Fontspring-DEMO-allroundgothic-thick.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CASaygonText';
+  src:
+    local('CustomFont2Name'),
+    url('./fonts/CASaygonText-Regular.ttf') format('truetype');
+}
+
+/* Default styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Fira Sans', sans-serif;
+  color: #173d33;
+  font-size: 16px;
+   font-weight: 400;
+   letter-spacing: -0.64px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+button {
+  cursor: pointer;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
