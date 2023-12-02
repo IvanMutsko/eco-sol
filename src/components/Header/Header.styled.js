@@ -26,6 +26,7 @@ export const LogoLink = styled(Link)`
       color: #97d28b;
     }
     margin-top: 3px;
+    margin-left: 4px;
     color: #173d33;
     font-family: 'CASaygonText';
     font-size: 10px;

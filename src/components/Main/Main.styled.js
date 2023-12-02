@@ -4,7 +4,6 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding-bottom: 24px;
 `;
 
 export const Title = styled.h1`
