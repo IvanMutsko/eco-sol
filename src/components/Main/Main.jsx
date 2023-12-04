@@ -1,4 +1,5 @@
 import TranspTextBtn from '../TranspTextBtn/TranspTextBtn';
+import Owners from '../Owners/Owners';
 import photo from '../../assets/images/main-wind-turbine.jpg';
 
 import {
@@ -12,11 +13,10 @@ import {
   Image,
   Subtitle,
 } from './Main.styled';
-import Owners from '../Owners/Owners';
 
 const Main = () => {
   return (
-    <Section>
+    <Section id='main'>
       <Title>RENEWABLE ENERGY For any task</Title>
       <Text>
         Development and implementation of renewable non-polluting energy

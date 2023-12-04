@@ -1,15 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrap = styled.div`
-  display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
-  justify-content: center;
-`;
-
-export const CardWrap = styled.div`
-  width: 148px;
-`;
+export const CardWrap = styled.div``;
 
 export const Image = styled.img`
   height: 168px;

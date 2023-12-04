@@ -2,9 +2,13 @@ import About from '../About/About';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
 import Electricity from '../Electricity/Electricity';
+import Cases from '../Cases/Cases';
+import Faq from '../Faq/Faq';
+import Customers from '../Customers/Customers';
+import ContactUs from '../ContactUs/ContactUs';
+import Footer from '../Footer/Footer';
 
 import { Wrap } from './Layout.styled';
-import Cases from '../Cases/Cases';
 
 const Layout = () => {
   return (
@@ -14,6 +18,10 @@ const Layout = () => {
       <About />
       <Electricity />
       <Cases />
+      <Faq />
+      <Customers />
+      <ContactUs />
+      <Footer />
     </Wrap>
   );
 };

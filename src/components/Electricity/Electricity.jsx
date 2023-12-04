@@ -17,7 +17,7 @@ const Electricity = () => {
       </Text>
       <List>
         {typesEnergy.map(type => (
-          <Item>{type}</Item>
+          <Item key={type}>{type}</Item>
         ))}
       </List>
     </Section>
